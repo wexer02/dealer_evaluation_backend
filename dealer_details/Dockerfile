@@ -1,12 +1,12 @@
-FROM node:18.12.1-bullseye-slim
+FROM node:22-slim
 
-RUN npm install -g npm@9.1.3
+WORKDIR /app
 
-ADD package.json .
-ADD server.js .
-ADD utils/dealers.json /utils/dealers.json
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
 
-RUN npm install
+COPY server.js ./
+COPY utils/dealers.json ./utils/dealers.json
 
 EXPOSE 8080
 
