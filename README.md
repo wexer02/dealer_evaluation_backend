@@ -12,9 +12,10 @@ dealer prices, four complete price lists, and cross-origin access. The Laptop
 dealer spelling is consistent between services. Dockerfiles use Python 3.13 and
 Node.js 22.
 
-Code Engine deployment is pending course-provided access. The personal IBM Cloud
-trial account rejected project creation because it requires a paid account.
-No Code Engine deployment or URL is claimed here.
+Both services are deployed and Ready in the course Code Engine project.
+
+Product Details: https://product-details.2giim37ib6oe.us-south.codeengine.appdomain.cloud
+Dealer Pricing: https://dealer-pricing.2giim37ib6oe.us-south.codeengine.appdomain.cloud
 
 ## Local run
 
