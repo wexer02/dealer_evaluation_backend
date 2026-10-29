@@ -14,8 +14,8 @@ Node.js 22.
 
 Both services are deployed and Ready in the course Code Engine project.
 
-Product Details: https://product-details.2giim37ib6oe.us-south.codeengine.appdomain.cloud
-Dealer Pricing: https://dealer-pricing.2giim37ib6oe.us-south.codeengine.appdomain.cloud
+Product Details: https://product-details.2gigbvkbdmwi.us-south.codeengine.appdomain.cloud
+Dealer Pricing: https://dealer-pricing.2gigbvkbdmwi.us-south.codeengine.appdomain.cloud
 
 ## Local run
 
